@@ -11,4 +11,4 @@
   - name: Build the dockerfile
     command: chdir=/tmp/devopscode-repo  docker build -t myimage22:ansiblenew .
   - name: Run the image to deploy the application on tomcat container
-    command: docker run -d -P myimage:ansiblenew
+    command: docker run -d -P myimage22:ansiblenew
